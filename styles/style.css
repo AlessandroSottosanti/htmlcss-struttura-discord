@@ -24,12 +24,20 @@ header{
     align-items: center;
 }
 
+.footer-container{
+    display: flex;
+    width: 80%; 
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .block-2{
     display: flex;
     width: 50%;
     height: 50%;
     background-color: #EE81EE;
-    border: dashed black;
+    border: 1px dashed black;
 }
 
 .navbar {
@@ -38,7 +46,7 @@ header{
     height: 60%;
     background-color: #DAA520;
     align-items: center;
-    border: dashed black;
+    border: 1px dashed black;
     justify-content: center;
 }
 
@@ -50,16 +58,33 @@ header{
     height: 700px;
 }
 
+.on-bottom{
+    height: 80%;
+    align-self: flex-end;
+}
+
 .login{
     text-align: end;
-    border-left: dashed black;
+    border-left: 1px dashed black;
     padding-right: 10px;
 }
 
-.logo{
-    border-right: dashed black;
-    padding-left: 10px;
+.bottone{
+    border: 1px dashed black;
+    padding: 5px 10px;
 }
+
+
+.logo{
+    border-right: 1px dashed black;
+    padding: 5px 10px;
+}
+
+.logo2{
+    border: 1px dashed black;
+    padding: 5px 10px;
+}
+
 .col-25 {
     width: 25%;
 }
@@ -91,6 +116,20 @@ header{
     background-color: #23272A;
 }
 
+.water{
+    background-color: #7FFFD3;
+}
+
+.pink-darker{
+    background-color: #FFB6C1;
+}
+
 .bottom-border{
     border-bottom: 1px solid white;
+}
+
+footer{
+    height: 70px; 
+    display: flex;
+    background-color: #ACD7E5;
 }
