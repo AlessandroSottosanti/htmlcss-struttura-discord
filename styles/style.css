@@ -5,6 +5,7 @@
 }
 
 header{
+    align-items: center;
     height: 70px; 
     display: flex;
     background-color: #ACD7E5;
@@ -151,6 +152,7 @@ footer{
     height: 90%;
     width: 80%; 
     margin: 0 auto;
+    align-items: center;
 }
 
 .container2{
@@ -159,6 +161,7 @@ footer{
     height: 90%;
     width: 60%; 
     margin: 0 auto;
+    align-items: center;
 }
 
 .item {
