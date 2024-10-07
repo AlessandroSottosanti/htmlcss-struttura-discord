@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 header{
@@ -9,6 +10,11 @@ header{
     height: 70px; 
     display: flex;
     background-color: #ACD7E5;
+    color: white;
+}
+
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .section-container{
@@ -74,10 +80,10 @@ header{
     display: flex;
     justify-content: center;
 }
-.navbar-links a {
+.navbar-links li a {
     margin: 0 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .green{
@@ -134,16 +140,29 @@ footer{
     background-color: #ACD7E5; 
 }
 
-.grow1{
-    flex-grow: 1;
+
+.col-20{
+    width: 20%;
 }
 
-.grow2{
-    flex-grow: 2;
+.col-25{
+    width: 25%;
 }
 
-.grow3{
-    flex-grow: 3;
+.col-30{
+    width: 30%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-70{
+    width: 70%;
 }
 
 .container {
